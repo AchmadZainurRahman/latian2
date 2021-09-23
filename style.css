@@ -1,0 +1,148 @@
+body {
+    background: rgb(214, 210, 210);
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+/* .wrapper  */
+.container {
+    width: 13498x;
+    margin: auto;
+    padding: 8px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* bagian navbar */
+#navbar {
+    background: blue;
+    padding: 0;
+    border: 0;
+}
+
+#navbar img {
+    margin: auto;
+    width: 170px;
+
+}
+
+.centerbox {
+    width: 200px;
+    margin: auto;
+}
+
+.fixed {
+    position: fixed;
+    background: #001E6C;
+    width: 1348px;
+    height: 50px;
+    border-bottom: 10px solid rgba(255, 255, 255, 0.2);
+    z-index: 2;
+}
+
+#navbar .video1 {
+    height: 650px;
+    width: 1348px;
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar .video1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#navbar .overlay {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(138, 138, 138, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 235, 235);
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sticky {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    position: sticky;
+    height: 46px;
+    background: #035397;
+    top: 50px;
+    z-index: 2;
+}
+
+.sticky .center_t {
+    margin: auto;
+    width: 650px;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    margin-bottom: 0;
+    transition: 0.4s;
+}
+
+li a:hover {
+    border-radius: 10px;
+    background-color: #5089C6;
+}
+
+li a:hover #artikel {}
+
+/* bagian conten */
+#conten {
+    padding: 0;
+    height: auto;
+}
+
+/* artikel */
+#artikel {
+    height: 600px;
+    background: rgb(236, 236, 236);
+}
+
+/* video */
+#video {
+    height: 600px;
+    background: rgb(206, 206, 206);
+}
+
+/* artikel */
+#audio {
+    height: 200px;
+    background: rgb(243, 243, 243);
+}
+
+/* bagian footer */
+#footer {
+    height: 30px;
+    text-align: center;
+    padding: 12px 0 0 12px;
+    background: #035397;
+    color: wheat;
+}
